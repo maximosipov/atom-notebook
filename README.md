@@ -1,5 +1,7 @@
 # jupyter-notebook
 
+`node-gyp` regexp build error can be fixed by setting Command Line Tools in Xcode -> Preferences -> Locations (or better updating node-gyp in atom).
+
 > This project does not have any active maintainers. We recommend that you use [nteract](https://nteract.io/desktop), a native notebook application built using Electron, React (like this project), Redux, and RxJS, or [Hydrogen](https://nteract.io/atom), a LightTable-inspired package for Atom that allows users to run code blocks and selections using Jupyter kernels.
 
 A package that works like the [Jupyter Notebook](http://jupyter.org/), but inside Atom. It's registered as an opener for `.ipynb` files — try opening one!
